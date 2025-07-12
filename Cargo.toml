@@ -1,9 +1,5 @@
-[package]
-name = "rust-query"
-version = "0.1.0"
-edition = "2021"
 
-[dependencies]
-arrow = "52.0.0"
-arrow-schema = "52.0.0"
-arrow-csv = "52.0.0"
+[workspace]
+members = ["src/common", "src/expr", "src/datasource", "src/optimizer"]
+
+resolver = "2"
