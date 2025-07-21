@@ -1,6 +1,7 @@
 pub mod column;
 pub mod expr;
 pub mod plan;
+pub mod tree_node;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
